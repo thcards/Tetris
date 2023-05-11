@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+
+</head>
+<body>
+    <canvas id="gameCanvas" width="320" height="640"></canvas>
+    <button class = "Start" id="startButton">Iniciar</button>
+    <button class = "Pause" id="pauseButton">Pausar</button>
+    <p class = "pontuacao" >Pontuação: <span id="score">0</span></p>
+    <script src="tetris.js"></script>
+</body>
+<style>
+    canvas {
+        display: block;
+        margin: auto;
+    }
+    .Start {
+
+        position: absolute;
+    top: 80px;
+    right: 30px;
+
+    border-radius: 100%;
+    border: none;
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;     
+    }
+
+    .Pause {
+
+
+        position: absolute;
+    top: 80px;
+    right: 120px;
+
+    border-radius: 100%;
+    border: none;
+    background: #fff;
+    height: 50px;
+    width: 50px;
+
+    cursor: pointer;
+    }
+    
+</style>
+</html>
